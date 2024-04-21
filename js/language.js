@@ -149,7 +149,7 @@ let lang = {
         pricingh2:"OUR PRICING PLAN",
         pricingh41:"Bronze Plan",
         pricingh311:"4 Months",
-        pricingh312:"$150",
+        pricingh312:"$170",
         pricingh322:"LE7000",
         pricingspan11:"Customized Workouts: Tailored exercises with instructional videos to suit your fitness goals—whether it's fat loss or muscle gain—based on your training level and body weaknesses",
         pricingspan12:"Personalized Progression: Individualized approach considering your experience and body weaknesses, ensuring effective results",
