@@ -994,10 +994,13 @@ the website, in dark theme
   
 
   .price__grid {
+    align-content: center;
+    align-items: center;
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
     gap: 2rem;
+    justify-content: center;
   }
   
   .price__card {
@@ -1855,9 +1858,9 @@ the website, in dark theme
   /* For tall screens on mobiles y desktop*/
 
 @media (width < 900px) {
-  .price__grid {
+  /* .price__grid {
     grid-template-columns: repeat(2, 1fr);
-  }
+  } */
   
   .header__container {
     grid-template-columns: repeat(1, 1fr);
@@ -1866,13 +1869,26 @@ the website, in dark theme
 
 }
 
-@media (width < 600px) {
+/* @media (width < 600px) {
   .price__grid {
     grid-template-columns: repeat(1, 1fr);
   }
+} */
+@media screen and (max-width:320px){
+  .price__grid {
+    grid-template-columns: 250px;
+  }
 }
-
-
+@media screen and (min-width:768px){
+  .price__grid{
+    grid-template-columns: repeat(2,285px);
+  }
+}
+@media screen and (min-width:1150px){
+  .price__grid{
+    grid-template-columns: repeat(3,1fr);
+  }
+}
 /* Absolute Center Spinner */
 .loading {
   position: fixed;
